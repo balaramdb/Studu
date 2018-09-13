@@ -3,7 +3,7 @@
   "short_name": "Studu",
   "icons": [{
     "src": "images/learn-graphic.jpg",
-      "sizes": "260x250",
+      "sizes": "260x256",
       "type": "image/jpg"
     }],
   "start_url": "/index.html",
