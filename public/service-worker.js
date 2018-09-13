@@ -1,8 +1,9 @@
 var cacheName = 'studu-pwa';
-var dataCacheName = 'studu-data';
+//var dataCacheName = 'studu-data';
 var filesToCache = [
   '/',
   '/index.html',
+  '/404.html',
   '/scripts/app.js',
   '/scripts/jquery-3.3.1.min.js',
   '/scripts/materialize.js',
