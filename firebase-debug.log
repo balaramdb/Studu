@@ -1,0 +1,24 @@
+[debug] [2018-09-13T05:14:36.697Z] ----------------------------------------------------------------------
+[debug] [2018-09-13T05:14:36.700Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-13T05:14:36.700Z] CLI Version:   4.2.1
+[debug] [2018-09-13T05:14:36.700Z] Platform:      darwin
+[debug] [2018-09-13T05:14:36.700Z] Node Version:  v10.10.0
+[debug] [2018-09-13T05:14:36.701Z] Time:          Wed Sep 12 2018 22:14:36 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-13T05:14:36.702Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-13T05:14:36.720Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-13T05:14:36.720Z] > authorizing via signed-in user
+[debug] [2018-09-13T05:14:36.724Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/studu-fc  
+ 
+[debug] [2018-09-13T05:14:37.143Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-13T05:14:37.145Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/studu-fc  
+ 
+[debug] [2018-09-13T05:14:37.492Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/abhuballu/Desktop/balaram/Studu'...
+[info] 
+[debug] [2018-09-13T05:14:37.495Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/65568207164/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-13T05:14:37.733Z] <<< HTTP RESPONSE 200
+[info] i  hosting[studu-fc]: Serving hosting files from: public
+[info] ✔  hosting[studu-fc]: Local server: http://localhost:5000
