@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Studu</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
 
   <body>
@@ -14,6 +19,7 @@
     <br>
     <p>PUBLIC folder has the front-end and javascript back-end of the app.</p>
 
+    <!-- Firebase initialize -->
     <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
     <script>
       // Initialize Firebase
@@ -27,6 +33,11 @@
       };
       firebase.initializeApp(config);
     </script>
+
+    <!-- CSS startup -->
+    <script src=scripts/jquery-3.3.1.min.js></script>
+    <script src="scripts/materialize.js"></script>
+    <script src="scripts/init.js"></script>
   </body>
 </html>
 
