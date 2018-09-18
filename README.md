@@ -9,11 +9,11 @@ PUBLIC folder has the front-end and javascript back-end of the app.
 
 PAGES (General):
   Home
+  Sign-up
   Installation
 
 PAGES (Student):
   Home
-  Sign-up
   Calendar/Schedule
   Calendar/Schedule Editor
   New Quarter
@@ -23,7 +23,6 @@ PAGES (Student):
 
 PAGES (Teacher):
   Home
-  Sign-up
   Calendar/Schedule
   Calendar/Schedule Editor
   New Quarter

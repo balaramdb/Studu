@@ -4,6 +4,7 @@ var filesToCache = [
   '/',
   '/index.html',
   '/404.html',
+  '/sign-up.html',
   '/scripts/app.js',
   '/scripts/jquery-3.3.1.min.js',
   '/scripts/materialize.js',
