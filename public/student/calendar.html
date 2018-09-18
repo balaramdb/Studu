@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Studu | Calendar</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json">
+  </head>
+
+  <body>
+    <h1>Calendar</h1>
+
+    <!-- Firebase startup -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD8IseTVWmMlAs62jKm3kuU11FkF5CyjRg",
+        authDomain: "studu-fc.firebaseapp.com",
+        databaseURL: "https://studu-fc.firebaseio.com",
+        projectId: "studu-fc",
+        storageBucket: "studu-fc.appspot.com",
+        messagingSenderId: "65568207164"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <!-- CSS startup -->
+    <script src=scripts/jquery-3.3.1.min.js></script>
+    <script src="scripts/materialize.js"></script>
+    <script src="scripts/init.js"></script>
+
+    <!-- Start app -->
+    <script src="scripts/app.js" async></script>
+  </body>
+</html>
